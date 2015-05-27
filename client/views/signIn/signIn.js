@@ -19,6 +19,7 @@ Template['signIn'].events({
       function(error, result) {
         if (!error) {
           console.log('success');
+          window.close();
         }
       });
   }
