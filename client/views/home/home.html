@@ -1,3 +1,7 @@
 <template name="home">
-    Hello boilerplate world!
+    {{#if signedIn}}
+    <button class="button meeting">Start a new Meeting</button>
+    {{else}}
+    <h2>You need to be signed in to use this feature.</h2>
+    {{/if}}
 </template>

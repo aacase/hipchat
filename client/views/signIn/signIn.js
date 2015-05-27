@@ -1,9 +1,9 @@
-Template['home'].helpers({
+Template['signIn'].helpers({
   signedIn:function(){return Meteor.user();}
 });
 
 
-Template['home'].events({
+Template['signIn'].events({
   'click .meeting': function(){
     //posts data to the room.
 
